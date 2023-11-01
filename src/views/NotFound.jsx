@@ -2,9 +2,10 @@ import { Container } from "react-bootstrap";
 
 function NotFound() {
     return (
-        <Container className="pt-5">
-            <h4 className="mb-4">La ruta que intentas consultar no existe ⚠️</h4>
+        <Container className="container-message">
+            <h4 className="mb-3">La ruta que intentas consultar no existe ⚠️</h4>
         </Container>
     );
 }
+
 export default NotFound;

@@ -8,3 +8,8 @@ body {
 .my-form {
     margin: 4rem;
 }
+
+.container-message {
+    text-align: center;
+    margin-top: 5rem;
+}
