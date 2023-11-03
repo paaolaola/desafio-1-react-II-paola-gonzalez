@@ -10,7 +10,7 @@ function ContactPage() {
             </Container>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Tu Correo</Form.Label>
-                <Form.Control type="email" placeholder="name@example.com" />
+                <Form.Control type="email" placeholder="tucorreo@ejemplo.cl" />
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Tu consulta</Form.Label>

@@ -7,11 +7,13 @@ import Navigation from "./components/Navigation";
 import HomePage from "./views/HomePage";
 import ContactPage from "./views/ContactPage";
 import NotFound from "./views/NotFound";
+import TopBar from "./components/TopBar";
 
 function App() {
     return (
         <>
             <BrowserRouter>
+                <TopBar />
                 <Navigation />
                 <Routes>
                     <Route path="/" element={<HomePage />}></Route>

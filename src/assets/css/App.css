@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
-    background-size: cover;
+    background-size: 100%;
 }
 
 .my-form {
@@ -12,4 +12,27 @@ body {
 .container-message {
     text-align: center;
     margin-top: 5rem;
+}
+
+.section-text {
+    text-align: justify;
+    margin: 4rem;
+    opacity: 100%;
+    padding: 3rem;
+    background-color: rgba(255, 211, 211, 0.7);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: rgb(255, 251, 182);
+}
+
+.cake-image {
+    width: 400px;
+    background-size: contain;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
