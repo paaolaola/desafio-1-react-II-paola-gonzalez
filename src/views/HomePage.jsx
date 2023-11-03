@@ -40,53 +40,43 @@ const HomePage = () => {
                     cualquier día.
                 </p>
                 <p>¡Elige Happy Cake y dale un toque dulce a tu vida con cada rebanada!</p>
-            </section>
 
-            <section>
                 <div className="gallery">
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 1"
-                        ></img>
-                    </div>
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 2"
-                        ></img>
-                    </div>
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1562777717-dc6984f65a63?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 3"
-                        ></img>
-                    </div>
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1551879400-111a9087cd86?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 6"
-                        ></img>
-                    </div>
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1488477304112-4944851de03d?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 4"
-                        ></img>
-                    </div>
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 1"
+                    ></img>
 
-                    <div>
-                        <img
-                            className="cake-image"
-                            src="https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Image 5"
-                        ></img>
-                    </div>
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 2"
+                    ></img>
+
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1562777717-dc6984f65a63?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 3"
+                    ></img>
+
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1551879400-111a9087cd86?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 6"
+                    ></img>
+
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1488477304112-4944851de03d?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 4"
+                    ></img>
+
+                    <img
+                        className="cake-image"
+                        src="https://images.unsplash.com/photo-1521309918586-feb7aa79a61b?auto=format&fit=crop&q=80&w=2787&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="Image 5"
+                    ></img>
                 </div>
             </section>
         </Container>

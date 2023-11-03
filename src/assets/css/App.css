@@ -17,22 +17,56 @@ body {
 .section-text {
     text-align: justify;
     margin: 4rem;
-    opacity: 100%;
     padding: 3rem;
     background-color: rgba(255, 211, 211, 0.7);
 }
 
 .gallery {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    background-color: rgb(255, 251, 182);
+    margin: auto;
+    width: 100%;
+    height: 650px;
 }
 
+.gallery img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.9;
+    transition: 0.4s ease;
+}
+
+.gallery img:hover {
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
 .cake-image {
     width: 400px;
     background-size: contain;
     margin-bottom: 3rem;
     margin-top: 3rem;
+}
+
+@media screen and (max-width: 540px) {
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery img {
+        margin: 0;
+        width: 300px;
+        height: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: 0.9;
+        transition: 0.4s ease;
+    }
+    .gallery img:hover {
+        width: 300px;
+        height: 400px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
 }
