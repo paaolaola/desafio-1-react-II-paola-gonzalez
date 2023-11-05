@@ -5,8 +5,8 @@ import { Container } from "react-bootstrap";
 function ContactPage() {
     return (
         <Form className="my-form">
-            <Container className="pt-5">
-                <h3 className="mb-4">Cuentanos, ¿En qué te podemos ayudar?</h3>
+            <Container className="pt-2">
+                <h4 className="mb-4">Tienes dudas con alguno de nuestros ricos pasteles? Escríbenos y te respondemos a la brevedad.</h4>
             </Container>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>Tu Correo</Form.Label>
